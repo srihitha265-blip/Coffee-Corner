@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Products</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+        }
+        header {
+            background: #222;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+        }
+        nav {
+            text-align: center;
+            padding: 15px;
+            background: #333;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover { text-decoration: underline; }
+        .products {
+            display: flex;
+            justify-content: space-around;
+            margin: 40px;
+        }
+        .item {
+            width: 250px;
+            padding: 15px;
+            background: white;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 0 10px #aaa;
+        }
+        .item img {
+            width: 100%;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>Our Products</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="products.html">Products</a>
+    <a href="payment.html">Payment</a>
+</nav>
+
+<div class="products">
+    <div class="item">
+        <img src="https://images.unsplash.com/photo-1520962918287-7448c2878f65" alt="Shirt">
+        <h3>Men's Shirt</h3>
+        <p>₹799</p>
+    </div>
+
+    <div class="item">
+        <img src="https://images.unsplash.com/photo-1503342217505-b0a15ec3261c" alt="Dress">
+        <h3>Women's Dress</h3>
+        <p>₹1,199</p>
+    </div>
+
+    <div class="item">
+        <img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f" alt="Jeans">
+        <h3>Blue Jeans</h3>
+        <p>₹999</p>
+    </div>
+</div>
+
+</body>
+</html>
